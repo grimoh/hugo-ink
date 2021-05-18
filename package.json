@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "hugo server -w & postcss postcss/*.css -d static/assets/styles/ -w",
+    "build": "hugo & postcss postcss/*.css -d docs/assets/styles/"
+  },
+  "dependencies": {
+    "postcss": "^8.2.15",
+    "postcss-cli": "^8.3.1",
+    "postcss-color-function": "^4.1.0",
+    "postcss-css-reset": "^1.0.2",
+    "postcss-custom-media": "^8.0.0",
+    "postcss-media-minmax": "^5.0.0",
+    "postcss-mixins": "^8.0.0",
+    "postcss-nested": "^5.0.5",
+    "postcss-simple-vars": "^6.0.3"
+  }
+}
